@@ -7,11 +7,10 @@
     "access": "public"
   },
   "dependencies": {
+    "@react-native-community/cli-config-android": "15.1.0",
     "@react-native-community/cli-tools": "15.1.0",
     "chalk": "^4.1.2",
     "execa": "^5.0.0",
-    "fast-glob": "^3.3.2",
-    "fast-xml-parser": "^4.4.1",
     "logkitty": "^0.7.1"
   },
   "files": [
@@ -21,8 +20,7 @@
     "native_modules.gradle"
   ],
   "devDependencies": {
-    "@react-native-community/cli-types": "15.1.0",
-    "@types/fs-extra": "^8.1.0"
+    "@react-native-community/cli-types": "15.1.0"
   },
   "homepage": "https://github.com/react-native-community/cli/tree/main/packages/cli-platform-android",
   "repository": {
